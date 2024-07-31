@@ -1,0 +1,41 @@
+.icon1, .icon2, .icon3, .icon4{
+    transition: transform 0.2s ease-in-out;
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover{
+    transform: scale(1.1);
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.0s ease-out, transform 1.01s ease-out;
+}
+
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+}
+.footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    margin-right: 15px;
+    color: white;
+}
+.footer .social-icons a:hover {
+    color: #adb5bd;
+}
+
